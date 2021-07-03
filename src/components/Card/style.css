@@ -1,0 +1,50 @@
+.card{
+    width:60%;
+    border:none;
+    border-radius:14px;
+}
+.card-head{
+    display:flex;
+    justify-content: space-around;
+    color:white;
+    padding:64px;
+    background-image: url('../../assets/fim-de-tarde.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    
+}
+.date-city{
+    display:grid;
+    place-content:center;
+    text-align:center;
+}
+.date-city h2{
+    font-size: 35px;
+}
+.temperature{
+    text-align:center;
+}
+.display-temperature{
+    font-weight: bold;
+    font-size:90px;
+}
+.dados{
+    background-color:rgb(222,209,237);
+    display:grid;
+    place-content: center;
+    width:50%;
+    padding:64px 20px;
+}
+.card-body{
+    display:flex;
+}
+.condicao-do-tempo{
+    color:white;
+    width:50%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color:rgb(72,42,105);
+    font-weight: 500;
+    text-align: center;
+}
